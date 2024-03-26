@@ -1,0 +1,23 @@
+{
+  "name": "number-guessing-by-hamza0",
+  "version": "1.0.0",
+  "description": "A simple number guessing cli game by Typescript, Node.js and inquirer",
+  "main": "app.js",
+  "type":"module",
+  "publishconfifg":{
+    "access":"public"
+  },
+
+  "bin":"app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamza",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
